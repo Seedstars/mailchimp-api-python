@@ -85,6 +85,8 @@ class ListNotSubscribedError(Error):
     pass
 class ListInvalidImportError(Error):
     pass
+class ListRoleEmailMemberError(Error):
+    pass
 class MCPastedListDuplicateError(Error):
     pass
 class MCPastedListInvalidImportError(Error):
@@ -235,6 +237,7 @@ ERROR_MAP = {
     'List_AlreadySubscribed': ListAlreadySubscribedError,
     'List_NotSubscribed': ListNotSubscribedError,
     'List_InvalidImport': ListInvalidImportError,
+    'List_RoleEmailMember': ListRoleEmailMemberError,
     'MC_PastedList_Duplicate': MCPastedListDuplicateError,
     'MC_PastedList_InvalidImport': MCPastedListInvalidImportError,
     'Email_AlreadySubscribed': EmailAlreadySubscribedError,
